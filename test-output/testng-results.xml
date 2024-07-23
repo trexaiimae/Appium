@@ -2,16 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-22T22:12:11 SGT" name="Default suite" finished-at="2024-07-22T22:12:20 SGT" duration-ms="8797">
+  <suite started-at="2024-07-23T19:13:09 CST" name="Default suite" finished-at="2024-07-23T19:13:27 CST" duration-ms="18132">
     <groups>
     </groups>
-    <test started-at="2024-07-22T22:12:11 SGT" name="Default test" finished-at="2024-07-22T22:12:20 SGT" duration-ms="8797">
-      <class name="Appiumoqt.Appium.AppiumBasic">
-        <test-method signature="AppiumTest()[pri:0, instance:Appiumoqt.Appium.AppiumBasic@28dcca0c]" started-at="2024-07-22T22:12:11 SGT" name="AppiumTest" finished-at="2024-07-22T22:12:20 SGT" duration-ms="8775" status="PASS">
+    <test started-at="2024-07-23T19:13:09 CST" name="Default test" finished-at="2024-07-23T19:13:27 CST" duration-ms="18132">
+      <class name="Appiumoqt.Appium.LongPress">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:Appiumoqt.Appium.LongPress@55de24cc]" started-at="2024-07-23T19:13:09 CST" name="configureAppium" finished-at="2024-07-23T19:13:14 CST" duration-ms="5572" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AppiumTest -->
-      </class> <!-- Appiumoqt.Appium.AppiumBasic -->
+        </test-method> <!-- configureAppium -->
+        <test-method signature="LongPress()[pri:0, instance:Appiumoqt.Appium.LongPress@55de24cc]" started-at="2024-07-23T19:13:14 CST" name="LongPress" finished-at="2024-07-23T19:13:27 CST" duration-ms="12535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LongPress -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Appiumoqt.Appium.LongPress@55de24cc]" started-at="2024-07-23T19:13:27 CST" name="teardown" finished-at="2024-07-23T19:13:27 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Appiumoqt.Appium.LongPress -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
