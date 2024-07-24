@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Appiumoqt.Appium.LongPress">
+      <class name="Appiumoqt.Appium.SwipeAction">
         <methods>
-          <include name="LongPress"/>
+          <include name="Swipe"/>
           <include name="configureAppium"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- Appiumoqt.Appium.LongPress -->
+      </class> <!-- Appiumoqt.Appium.SwipeAction -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
